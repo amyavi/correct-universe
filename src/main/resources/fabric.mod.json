@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "correct-universe",
+  "version": "${version}",
+
+  "name": "Correct Universe",
+  "description": "Makes the dedicated server use the universe folder for storing player list files",
+  "authors": ["amyavi"],
+  "license": "MIT",
+
+  "environment": "server",
+  "mixins": ["correct-universe.mixins.json"],
+
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "java": ">=${java_version}",
+    "minecraft": "~1.21.1"
+  }
+}
