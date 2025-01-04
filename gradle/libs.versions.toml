@@ -1,13 +1,11 @@
 [versions]
 java = "21"
-minecraft = "1.21.1"
-
-fabric-loom = "1.7.3"
-fabric-loader = "0.16.5"
+minecraft = "1.21.4"
+fabric-loader = "0.16.9"
+fabric-loom = "1.9.2"
 
 [libraries]
 minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
-
 fabric-loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric-loader" }
 
 [plugins]

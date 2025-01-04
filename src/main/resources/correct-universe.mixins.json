@@ -1,14 +1,14 @@
 {
   "minVersion": "0.8",
-  "compatibilityLevel": "JAVA_21",
+  "compatibilityLevel": "JAVA_${java_version}",
   "package": "com.github.amyavi.correctuniverse.mixin",
   "required": true,
-  "server": [],
-  "injectors": {
-    "defaultRequire": 1
-  },
-  "mixins": [
+  "server": [
     "MainMixin",
     "PlayerListMixin"
-  ]
+  ],
+  "mixins": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }

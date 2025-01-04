@@ -12,8 +12,8 @@
   "mixins": ["correct-universe.mixins.json"],
 
   "depends": {
-    "fabricloader": ">=${fabric_loader_version}",
     "java": ">=${java_version}",
-    "minecraft": "~1.21.1"
+    "minecraft": ">=${minecraft_version}",
+    "fabricloader": ">=${fabric_loader_version}"
   }
 }
